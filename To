@@ -1,0 +1,148 @@
+//Print even numbers from 1 to n
+import java.util.Scanner;
+
+public class Toufiq {
+
+	public static void main(String[] args) {
+	// TODO Auto-generated method stub
+		
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter number: ");
+		int n=scan.nextInt();
+		
+		for(int x=1;x<=n;x++ ) {
+			if(x%2==0) {
+		System.out.println(x)	;
+		}
+
+	}}}
+//first number or second number or sum or difference is 5
+import java.util.Scanner;
+
+public class Toufiq {
+
+	public static void main(String[] args) {
+	// TODO Auto-generated method stub
+		
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter number: ");
+		int a=scan.nextInt();
+		
+		System.out.println("Enter second number: ");
+		int b=scan.nextInt();
+		
+		if(a==5|| b==5 || a+b==5 || a-b==5 || b-a==5) {
+			System.out.println("True!");
+		}
+		else {
+			System.out.println("False");
+		}
+	}}
+  //Devided by 3 or 7 but not by both
+  import java.util.Scanner;
+
+public class Toufiq {
+
+	public static void main(String[] args) {
+	// TODO Auto-generated method stub
+		
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter number: ");
+		int a=scan.nextInt();
+		
+		
+		if(  (a>=0) && (a%3==0|| a%7==0) && (!(a%3==0 && a%7==0)))  {
+			System.out.println("True!");
+		}
+		else {
+			System.out.println("False");
+		}
+	}}
+  //Enter month number to get month name...Use switch case
+  import java.util.Scanner;
+
+public class Toufiq {
+
+	public static void main(String[] args) {
+	// TODO Auto-generated method stub
+		
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter month number: ");
+		int month=scan.nextInt();
+		
+		switch (month) {
+		case 1: 
+			System.out.println("January");
+		break;
+		case 2: 
+			System.out.println("February");
+		break;
+		case 3: 
+			System.out.println("March");
+		break;
+		case 4: 
+			System.out.println("April");
+		break;
+		case 5: 
+			System.out.println("May");
+		break;
+		case 6: 
+			System.out.println("June");
+		break;
+		case 7: 
+			System.out.println("July");
+		break;
+		case 8: 
+			System.out.println("August");
+		break;
+		case 9: 
+			System.out.println("september");
+		break;
+		case 10: 
+			System.out.println("October");
+		break;
+		case 11: 
+			System.out.println("November");
+		break;
+		case 12: 
+			System.out.println("December");
+			break;
+			
+		}
+	}}
+//sum of the first n elements 
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class Toufiq {
+
+	public static void main(String[] args) {
+	// TODO Auto-generated method stub
+		
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter  number: ");
+		int n=scan.nextInt();
+		ArrayList<Integer> numbers = new ArrayList<Integer>();
+		numbers.add(1);
+		numbers.add(5);
+		numbers.add(8);
+		numbers.add(9);
+		numbers.add(10);
+		numbers.add(13);
+		numbers.add(16);
+		numbers.add(17);
+		int sum=0;
+		for(int i=0; i<n;i++) {
+			if(numbers.get(i)%2==0) {
+			sum=sum+numbers.get(i);
+			
+			}
+			
+		}
+		System.out.println(sum);
+	}}		
